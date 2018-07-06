@@ -1,0 +1,12 @@
+ul.sf-menu > li.sfHover.parent > a,
+ul.sf-menu > li.sfHover.parent > span,
+ul.sf-menu > li.parent > a:hover,
+ul.sf-menu > li.parent > span:hover {
+color: #000;
+}
+.sf-menu > li > a:hover, .sf-menu > li.sfHover > a, .sf-menu > li.sfHover > span, .sf-menu > li:hover > span{
+color:  #000;
+}
+.sf-menu > li > a:active, .sf-menu > li.current > a, .sf-menu > li.current > span, .sf-menu > li.active > a, .sf-menu > li.active > span{
+color: #000;
+}

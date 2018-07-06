@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+   
+    <title>Action HTML</title>
+
+    <!--[if (gt IE 8) | (IEMobile)]><!--> 
+  <link rel="stylesheet" href="css/csmenu.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap-select.css"> 
+  <link rel="stylesheet" href="css/style.css">  
+
+     
+    <!-- Page level plugin CSS-->
+    <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
+    <!-- Custom styles for this template-->
+    <link href="css/sb-admin.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="font/css/font-awesome.css" />
+  <link rel="stylesheet" href="font/css/font-awesome.min.css" />
+  
+ 
+    <!--<![endif]-->
+    <!--[if (lt IE 9) & (!IEMobile)]>
+    <link rel="stylesheet" href="css/ie.css">
+    <![endif]-->
+</head>
+<body>
+ 
+  
+<section style="float: left;width: 100%; background: #303030 !important;">
+  <div class="col-md-9 col-lg-9">
+    <div class="row">
+      <div class="desh_bord_top_menu desh_bord_top_menu_"> 
+        <ul class="short_link">  
+          <li><i class="fa fa-user"></i> <a href="traffic_admin.html">LOGO</a></li>
+          <li><i class="fa fa-user"></i> <a href="traffic_admin_profile.html">User Profile</a></li>
+          <li><i class="fa fa-barcode"></i> <a href="reset_password_traffic.html">Change Password</a></li> 
+          <li><i class="fa fa-globe"></i> <a href="../index.html" target="blank">Visit Website</a></li>
+        </ul> 
+      </div> 
+    </div>
+  </div>
+  <div class="col-md-3 col-lg-3">
+     <div class="desh_bord_top_menu_">
+    <div class="top_menu">
+      <ul>
+        <li><a href="">Logout </a></li> 
+        <li><span>Shaikh Maruf Hosen</span> </li> 
+      </ul>
+    </div> 
+    </div> 
+     
+  </div>
+</section> 
+<section>
+  <div class="col-md-2 col-lg-2">
+    <div class="row"> 
+      <div class="bdfood_admin_menu">
+      <!-- ================== Manu html Start ======================= -->
+        <div class="menu"> 
+          <nav id="nav" role="navigation">
+            <div class="menu-wrap">
+              <div class="block">  
+                <div class="action-menu"> 
+                  <div id="cssmenu">
+                     <div class="profile_div">
+                      <img src="../images/profile_img.jpg">
+                      <h4>Terokhada</h4>
+                      <h5> Corporate office</h5>
+                    </div>
+<ul>  
+   <li class="active"><a class="contact-menu" href='traffic_admin.html'><i class="fa fa-home"></i> <span> Dashboard</span></a>   
+    <li><a class="contact-menu" href="pending_case.html"><i class="fa fa-ban"></i> <span>Pending Case</span></a> </li> 
+    <li><a class="contact-menu" href="Withdraw_case.html"><i class="fa fa-fax"></i> <span>Withdraw Case</span></a> </li>  
+  <li><a class="contact-menu" href="contact_traffic"><i class="fa fa-phone-square"></i> <span>Contact Info</span></a></li> 
+</ul>
+                  </div> 
+								</div>
+								 
+							</div>
+						</div>
+					</nav>
+					
+				</div>	
+				<!-- ================== Manu html Exit ======================= -->
+			</div> 
+		</div> 
+	</div>
+	<div class="col-md-10 col-lg-10">
+		<div class="row">
+			<div class="body_wrap">
+				<h2>Khulna corporate office cars information</h2> 
+				<p>The use of these trademarks does not indicate endorsement of the trademark holder by Font Awesome, nor vice versa. <span> <a style="float:right;" href="#">Print Report</a></span></p>
+
+				<div class="body_content"> 
+           <div class="card-body">
+              <div class="filter_table">
+                <form action="" method="Post">
+                  <div class="col-lg-2"> 
+                    <div class="filter_select_box">
+                    <input type="text" name="" placeholder="Unique Id">
+                    </div>
+                  </div>
+                  <div class="col-lg-2"> 
+                    <div class="filter_select_box">
+                    <select id="" class="form-contro">
+                      <option value="1"> Wheel Number</option>
+                      <option value="2">Wheel No 3</option>
+                      <option value="3">Wheel No 4</option>
+                      <option value="4">Wheel No 6</option>
+                      <option value="5">Wheel No 10</option>
+                      <option value="6">Wheel No 14</option>
+                    </select>
+                    </div>
+                  </div>
+                  <div class="col-lg-2"> 
+                    <div class="filter_select_box">
+                      <select id="" class="form-contro">
+                        <option value="1"> Car Type</option>
+                        <option value="2">Bus</option>
+                        <option value="3">Track</option>
+                        <option value="4">Micro Bus</option>
+                        <option value="5">Large Vehicle</option>
+                        <option value="6">Motorbike</option>
+                      </select>
+                    </div>
+                  </div>
+                   
+                  <div class="col-lg-2"> 
+                    <div class="filter_select_box">
+                      <button type="submit" class="btn">Filter</button>
+                    </div>
+                  </div> 
+                </form>
+              </div>
+          <div class="table-responsive">
+            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Car Number</th>
+                  <th>Date</th>
+                  <th>Wheel No</th>
+                  <th>Car Type</th>
+                  <th>Status</th>
+                  <th>Remarks</th>
+                </tr>
+              </thead>
+              <tfoot>
+                <tr>
+                  <th>Name</th>
+                  <th>Car Number</th>
+                  <th>Date</th>
+                  <th>Wheel No</th>
+                  <th>Car Type</th>
+                  <th>Status</th>
+                  <th>Remarks</th>
+                </tr>
+              </tfoot>
+              <tbody>
+                <tr>
+                  <td>Md.Razzak Molla</td>
+                  <td>Khulna Ha-11-3354</td>
+                  <td>02/jan/2007</td>
+                  <td>12</td>
+                  <td>Micro Bus</td>
+                  <td style="color:red">Case Pending</td>
+                  <td>
+                    <a href="withdraw_single.html">Details</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Md.Razzak Molla</td>
+                  <td>Khulna Ha-11-3354</td>
+                  <td>02/jan/2007</td>
+                  <td>12</td>
+                  <td>Micro Bus</td>
+                  <td style="color:red">Case Pending</td>
+                  <td>
+                    <a href="withdraw_single.html">Details</a>
+                  </td>
+                </tr> 
+                <tr>
+                  <td>Md.Razzak Molla</td>
+                  <td>Khulna Ha-11-3354</td>
+                  <td>02/jan/2007</td>
+                  <td>12</td>
+                  <td>Micro Bus</td>
+                  <td style="color:red">Case Pending</td>
+                  <td>
+                    <a href="withdraw_single.html">Details</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Md.Razzak Molla</td>
+                  <td>Khulna Ha-11-3354</td>
+                  <td>02/jan/2007</td>
+                  <td>12</td>
+                  <td>Micro Bus</td>
+                  <td style="color:red">Case Pending</td>
+                  <td>
+                    <a href="withdraw_single.html">Details</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Md.Razzak Molla</td>
+                  <td>Khulna Ha-11-3354</td>
+                  <td>02/jan/2007</td>
+                  <td>12</td>
+                  <td>Micro Bus</td>
+                  <td style="color:red">Case Pending</td>
+                  <td>
+                    <a href="withdraw_single.html">Details</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Md.Razzak Molla</td>
+                  <td>Khulna Ha-11-3354</td>
+                  <td>02/jan/2007</td>
+                  <td>12</td>
+                  <td>Micro Bus</td>
+                  <td style="color:red">Case Pending</td>
+                  <td>
+                    <a href="withdraw_single.html">Details</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Md.Razzak Molla</td>
+                  <td>Khulna Ha-11-3354</td>
+                  <td>02/jan/2007</td>
+                  <td>12</td>
+                  <td>Micro Bus</td>
+                  <td style="color:red">Case Pending</td>
+                  <td>
+                    <a href="withdraw_single.html">Details</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Md.Razzak Molla</td>
+                  <td>Khulna Ha-11-3354</td>
+                  <td>02/jan/2007</td>
+                  <td>12</td>
+                  <td>Micro Bus</td>
+                  <td style="color:red">Case Pending</td>
+                  <td>
+                    <a href="withdraw_single.html">Details</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Md.Razzak Molla</td>
+                  <td>Khulna Ha-11-3354</td>
+                  <td>02/jan/2007</td>
+                  <td>12</td>
+                  <td>Micro Bus</td>
+                  <td style="color:red">Case Pending</td>
+                  <td>
+                    <a href="withdraw_single.html">Details</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Md.Razzak Molla</td>
+                  <td>Khulna Ha-11-3354</td>
+                  <td>02/jan/2007</td>
+                  <td>12</td>
+                  <td>Micro Bus</td>
+                  <td style="color:red">Case Pending</td>
+                  <td>
+                    <a href="withdraw_single.html">Details</a>
+                  </td>
+                </tr> 
+                <tr>
+                  <td>Md.Razzak Molla</td>
+                  <td>Khulna Ha-11-3354</td>
+                  <td>02/jan/2007</td>
+                  <td>12</td>
+                  <td>Micro Bus</td>
+                  <td style="color:red">Case Pending</td>
+                  <td>
+                    <a href="withdraw_single.html">Details</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Md.Razzak Molla</td>
+                  <td>Khulna Ha-11-3354</td>
+                  <td>02/jan/2007</td>
+                  <td>12</td>
+                  <td>Micro Bus</td>
+                  <td style="color:red">Case Pending</td>
+                  <td>
+                    <a href="withdraw_single.html">Details</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Md.Razzak Molla</td>
+                  <td>Khulna Ha-11-3354</td>
+                  <td>02/jan/2007</td>
+                  <td>12</td>
+                  <td>Micro Bus</td>
+                  <td style="color:red">Case Pending</td>
+                  <td>
+                    <a href="withdraw_single.html">Details</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Md.Razzak Molla</td>
+                  <td>Khulna Ha-11-3354</td>
+                  <td>02/jan/2007</td>
+                  <td>12</td>
+                  <td>Micro Bus</td>
+                  <td style="color:red">Case Pending</td>
+                  <td>
+                    <a href="withdraw_single.html">Details</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Md.Razzak Molla</td>
+                  <td>Khulna Ha-11-3354</td>
+                  <td>02/jan/2007</td>
+                  <td>12</td>
+                  <td>Micro Bus</td>
+                  <td style="color:red">Case Pending</td>
+                  <td>
+                    <a href="withdraw_single.html">Details</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Md.Razzak Molla</td>
+                  <td>Khulna Ha-11-3354</td>
+                  <td>02/jan/2007</td>
+                  <td>12</td>
+                  <td>Micro Bus</td>
+                  <td style="color:red">Case Pending</td>
+                  <td>
+                    <a href="withdraw_single.html">Details</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Md.Razzak Molla</td>
+                  <td>Khulna Ha-11-3354</td>
+                  <td>02/jan/2007</td>
+                  <td>12</td>
+                  <td>Micro Bus</td>
+                  <td style="color:red">Case Pending</td>
+                  <td>
+                    <a href="withdraw_single.html">Details</a>
+                  </td>
+                </tr> 
+                <tr>
+                  <td>Md.Razzak Molla</td>
+                  <td>Khulna Ha-11-3354</td>
+                  <td>02/jan/2007</td>
+                  <td>12</td>
+                  <td>Micro Bus</td>
+                  <td style="color:red">Case Pending</td>
+                  <td>
+                    <a href="withdraw_single.html">Details</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Md.Razzak Molla</td>
+                  <td>Khulna Ha-11-3354</td>
+                  <td>02/jan/2007</td>
+                  <td>12</td>
+                  <td>Micro Bus</td>
+                  <td style="color:red">Case Pending</td>
+                  <td>
+                    <a href="withdraw_single.html">Details</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Md.Razzak Molla</td>
+                  <td>Khulna Ha-11-3354</td>
+                  <td>02/jan/2007</td>
+                  <td>12</td>
+                  <td>Micro Bus</td>
+                  <td style="color:red">Case Pending</td>
+                  <td>
+                    <a href="withdraw_single.html">Details</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Md.Razzak Molla</td>
+                  <td>Khulna Ha-11-3354</td>
+                  <td>02/jan/2007</td>
+                  <td>12</td>
+                  <td>Micro Bus</td>
+                  <td style="color:red">Case Pending</td>
+                  <td>
+                    <a href="withdraw_single.html">Details</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Md.Razzak Molla</td>
+                  <td>Khulna Ha-11-3354</td>
+                  <td>02/jan/2007</td>
+                  <td>12</td>
+                  <td>Micro Bus</td>
+                  <td style="color:red">Case Pending</td>
+                  <td>
+                    <a href="withdraw_single.html">Details</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Md.Razzak Molla</td>
+                  <td>Khulna Ha-11-3354</td>
+                  <td>02/jan/2007</td>
+                  <td>12</td>
+                  <td>Micro Bus</td>
+                  <td style="color:red">Case Pending</td>
+                  <td>
+                    <a href="withdraw_single.html">Details</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Md.Razzak Molla</td>
+                  <td>Khulna Ha-11-3354</td>
+                  <td>02/jan/2007</td>
+                  <td>12</td>
+                  <td>Micro Bus</td>
+                  <td style="color:red">Case Pending</td>
+                  <td>
+                    <a href="withdraw_single.html">Details</a>
+                  </td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+        </div> 
+				</div> 
+				 
+			</div>
+		</div>
+		 
+		 
+	</div> 
+</section>
+ 
+<section>
+	<footer>
+	<p>Copyright 2014 : Action Design By :	 <a href="http://hezy.org/superduper/">Hezy Theme</a> And Developed By : <a href="http://www.themeskanon.com">Themeskanon</a></p>
+	</footer>
+</section>				
+	 
+
+ 
+
+
+<script src="js/jquery.js"></script>
+<script src="js/script.js"></script>
+<script src="js/bootstrap/bootstrap.min.js"></script> 
+  
+<!-- Page level plugin JavaScript-->
+<script src="vendor/datatables/jquery.dataTables.js"></script>
+<script src="vendor/datatables/dataTables.bootstrap4.js"></script>
+<!-- Custom scripts for all pages-->
+<script src="js/panel_js/sb-admin.min.js"></script>
+<!-- Custom scripts for this page-->
+<script src="js/panel_js/sb-admin-datatables.min.js"></script>
+</body>
+</html>

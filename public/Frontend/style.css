@@ -1,0 +1,14 @@
+.parallax { 
+	background: url(../images/home.jpg) fixed; 
+	height: 1000px;  
+	margin: 0 auto; 
+    width: 100%; 
+    max-width: 1920px; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+.parallax article { background: url("../images/vvv.jpg"); height: 458px; position: absolute; text-indent: -9999px; top: 291px; width: 100%; }
+
+
+
+
