@@ -29,7 +29,7 @@
 						<div class="section_content section_content signup_section">
 							<form class="form-horizontal" action="{{ url('appfrom1') }}">
 								{{csrf_field()}}
-								<p>Personal informsdation {{session('own_name','default')}} </p>
+								<p>Personal informsdation</p>
 								<div class="control-group">
 								    <label class="control-label"><span class="text-danger">*</span> Name:</label>
 								    <div class="controls">

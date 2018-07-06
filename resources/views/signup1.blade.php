@@ -31,17 +31,18 @@
 								 
 								<p>Car information</p> 
 								<div class="control-group">
-								    <label class="control-label">Car Type:</label>
+								    <label class="control-label"><span class="text-danger">*</span> Car Type:</label>
 								    <div class="controls">
 								    	<select class="control-select" name="wheel_num"> 
 										  	<option>Select One</option>
-										  	<option value="">Bus</option>
-										  	<option value="">Track</option>
-										  	<option value="">Cargo service</option>
-										  	<option value="">Container Transport</option>
+										  	<option value="Bus">Bus</option>
+										  	<option value="Track">Track</option>
+										  	<option value="Cargo">Cargo service</option>
+										  	<option value="Container Transport">Container Transport</option>
+										  	<option value="Motor Bike">Motor Bike</option>
 										</select>
 
-										<label class="control_level">Wheel:</label>
+										<label class="control_level"><span class="text-danger">*</span> Wheel:</label>
 
 										<select class="control-select"  name="name">
 										  	<option>Select One</option>
@@ -53,18 +54,18 @@
 										  	<option value="8">8</option>
 										  	<option value="10">10</option>
 										  	<option value="12">12</option>
-										  	<option value="13">Up to 12 Wheel.</option>
+										  	<option value="up to 12">Up to 12 Wheel.</option>
 										</select> 
 								    </div>
 								</div> 
 								<div class="control-group">
-								    <label class="control-label">Car Chasis No:</label>
+								    <label class="control-label"><span class="text-danger">*</span> Car Chasis No:</label>
 								    <div class="controls">
 								    	<input type="text" name="car_sasis"  placeholder="Car Sasis number">
 								    </div>
 								</div>
 								<div class="control-group">
-								    <label class="control-label">Car Registration No:</label>
+								    <label class="control-label"><span class="text-danger">*</span> Car Registration No:</label>
 								    <div class="controls">
 								    	<div><input style="width:21.5%;" type="text" name="car_num" id="district_metro" placeholder="Area"> 
 								    	<div id="areatatus"></div>
@@ -91,7 +92,7 @@
 
 								</div> --}}
 								<div class="control-group">
-								    <label class="control-label">Color: </label>
+								    <label class="control-label"><span class="text-danger">*</span> Color: </label>
 								    <div class="controls">
 								    	<select class="control-select" name="color">
 										  	<option>Select One</option>
@@ -104,7 +105,7 @@
 								</div>
 
 								<div class="control-group">
-								    <label class="control-label">Insurence No:</label>
+								    <label class="control-label"><span class="text-danger">*</span> Insurence No:</label>
 								    <div class="controls">
 								    	<input type="text" name="insurence_num"  placeholder="Insurence number">
 								    </div>
@@ -118,7 +119,7 @@
 								</div> 
 
 								<div class="control-group">
-								    <label class="control-label">Engineen No:</label>
+								    <label class="control-label"><span class="text-danger">*</span> Engineen No:</label>
 								    <div class="controls">
 								    	<input type="text" name="car_eng"  placeholder="car Engineen number">
 								    </div>
@@ -126,7 +127,7 @@
 								 
 								<p>Driver information</p>
 								<div class="control-group">
-								    <label class="control-label">Driver Identity:</label>
+								    <label class="control-label"><span class="text-danger">*</span> Driver Identity:</label>
 								    <div class="controls">
 								    	<input type="number" name="driver_name"  placeholder="Driver Number...">
 								    </div>
