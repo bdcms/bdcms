@@ -213,7 +213,7 @@
 		<script src="{{url('Frontend')}}/js/skill/resume-custom.js"></script>  
 
 		<script type="text/javascript">
-			$('#district_metro').keyup(function(){
+			$('#car_metro').keyup(function(){
 				//console.log('check');
 				var area = $(this).val();
 				if(area != ''){
@@ -229,7 +229,7 @@
 					});
 				}
 			$(document).on('click','li',function(){
-				$('#district_metro').val($(this).text());
+				$('#car_metro').val($(this).text());
 				$('#areatatus').fadeOut();
 			});
 			});

@@ -18,7 +18,13 @@
 Route::get('/','FrontController@home');
 Route::get('/ownerinfo','FrontController@signup');
 Route::get('/carinfo','FrontController@signup1');
+Route::get('/cardocument','FrontController@signup2');
+Route::get('/login','FrontController@login');
 
-Route::any('/appfrom1','FrontController@appfrom1');
+Route::any('/appfrom1/','FrontController@appfrom1');
+Route::any('/appfrom2/','FrontController@appfrom2');
+Route::post('/appfrom3/','FrontController@appfrom3');
+Route::post('/checkLogin/','FrontController@checkLogin');
+
 Route::any('/area_search/','FrontController@district');
 Route::any('/key_search/','FrontController@keyword');

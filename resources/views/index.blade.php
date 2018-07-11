@@ -1,6 +1,12 @@
 
 @extends('master.master')
 @section('content')
+
+			@if (session('msg'))
+	            <div class="alert alert-success">
+	                {{ session('msg') }}
+	            </div>
+	        @endif
 	<!-- --------------------------------Slider Section Start--------------------------------- -->
 	 
 	<!-- --------------------------------Slider Section Exit--------------------------------- -->

@@ -33,8 +33,7 @@
 								<div class="control-group">
 								    <label class="control-label"><span class="text-danger">*</span> Name:</label>
 								    <div class="controls">
-								    	<input type="text" name="name"  placeholder="Name" value="{{old('name')}}"> 
-								    	<br/>
+								    	<input type="text" name="name"  placeholder="Name" value="{{old('name')}}">  
 								    	<span class="err-msg text-danger">{{$errors->first('name')}}</span>
 								    </div>
 								</div>
