@@ -22,6 +22,10 @@ Route::get('/cardocument','FrontController@signup2');
 Route::get('/login','FrontController@login');
 Route::get('/driverSignup','FrontController@driverSignup');
 
+//PDF
+Route::get('/makePDF','PdfController@makePDF');
+
+
 Route::any('/appfrom1/','FrontController@appfrom1');
 Route::any('/appfrom2/','FrontController@appfrom2');
 Route::post('/appfrom3/','FrontController@appfrom3');
