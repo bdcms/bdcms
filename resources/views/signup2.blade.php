@@ -27,6 +27,17 @@
 						</div>
 						<div class="section_content section_content signup_section">
 							<form class="form-horizontal" action="{{url('appfrom3/')}}" method="post" enctype="multipart/form-data">
+								<p>Car Photo</p>
+								 
+								<div class="control-group">
+								    <label class="control-label">Car Photo:</label>
+								    <div class="controls">
+								    	<input type="file" name="car_pic" >
+								    	<span class="err-msg text-danger">{{$errors->first('car_pic')}}</span>
+								    	<span> ( jpg,png,jpeg ) format are allow & file shold be less than 100kB.</span>
+								    </div>
+								</div>
+
 								<p>Profile Photo</p>
 								 {{csrf_field()}}
 								<div class="control-group">
@@ -46,16 +57,7 @@
 								    	<span class="err-msg text-danger">{{$errors->first('document_pdf')}}</span>
 								    	<span> ( scan a single PDF file by combind Driving Lisence, Road Permit, Insurence, Fitness certificate ) file shold be less than 250kB.</span>
 								    </div>
-								</div>
-								{{-- <p>Driver photo</p>
-								 
-								<div class="control-group">
-								    <label class="control-label">Driver Photo:</label>
-								    <div class="controls">
-								    	<input type="file" name="driver_pic" >
-								    	<span> ( jpg,png,jpeg ) format are allow & file shold be less than 100kB.</span>
-								    </div>
-								</div> --}}
+								</div> 
 
 								
 

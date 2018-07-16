@@ -24,6 +24,7 @@ class CreateCarsTable extends Migration
             $table->string('car_insurence');
             $table->string('car_road_permit_no');
             $table->string('car_engine_num');
+            $table->string('car_pic');
             $table->integer('driver_id');
             $table->integer('owner_id');
             $table->string('car_document_pdf');

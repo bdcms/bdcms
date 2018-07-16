@@ -137,8 +137,8 @@
 								<div class="control-group">
 								    <label class="control-label"><span class="text-danger">*</span> Driver Identity:</label>
 								    <div class="controls">
-								    	<input type="number" name="driver_mob"  placeholder="Driver Number..." value="{{old('driver_mob')}}">
-								    	<span class="err-msg text-danger">{{$errors->first('driver_mob')}}</span>
+								    	<input type="number" name="user_mobile"  placeholder="Driver Number..." value="{{old('user_mobile')}}">
+								    	<span class="err-msg text-danger">{{$errors->first('user_mobile')}}</span>
 								    </div>
 								</div> 
 								  <div class="control-group">

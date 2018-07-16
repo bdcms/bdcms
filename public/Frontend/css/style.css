@@ -740,7 +740,7 @@ width: 200px;
     font-weight: bold;
     color: #0083e9;
     line-height: 60px;}
-   .signup_section .form-horizontal .controls input[type="text"], .form-horizontal .controls input[type="number"],.form-horizontal .controls input[type="password"],.form-horizontal .controls input[type="email"]{
+   .signup_section .form-horizontal .controls input[type="text"],.form-horizontal .controls input[type="date"], .form-horizontal .controls input[type="number"],.form-horizontal .controls input[type="password"],.form-horizontal .controls input[type="email"]{
     background-image: none;
     margin-left: 3%;
     height: 30px;
